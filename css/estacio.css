@@ -1,0 +1,152 @@
+.back-1{
+    background-image: url("../img/back-1.png");    
+    background-repeat: repeat;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+}
+
+.back-2{
+    background-color: rgba(137, 223, 215, 0.6); 
+    background-image: url("../img/back-2.png");
+    background-repeat: repeat;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-position-x: 0%;
+    background-position-y: 0%;  
+}
+
+.menu{
+    height: 100px;     
+}
+
+@font-face {
+    font-family: Novecento-wide-DemiBold;
+    src: url('Novecentosanswide-DemiBold.otf');
+}
+
+.menu-link{
+    padding:70px 15px 10px 15px;
+    
+    
+    color: #ffffff;
+    font-family: Novecento-wide-DemiBold;
+}
+
+.menu-link:hover{
+    background-color: #66308e;
+    color: #ffffff;
+    border-radius: 0 5% 0 5%;    
+}
+
+@font-face {
+    font-family: Novecento-wide-Medium;
+    src: url('Novecentosanswide-Medium.otf');
+} 
+
+.box-chamada-graduacao{
+    margin: 1% 0 7% 2%;
+    border-left: 15px solid #ff00ff;
+    padding: 2% 0 2% 3%;
+    max-height: 5%;
+    background-color: rgba(179, 52, 136, 0.6);
+    color: #ffffff;  
+    font-family: Novecento-wide-Medium;
+    font-size: 200%;
+}
+
+.imagem-sobreposta{
+    max-width: 100%;
+}
+
+.secao-1{
+    padding: 9% 0 0 0;
+}
+
+.intro-desconto{
+    font-family: Novecento-wide-Medium;
+    color: #ffffff;
+}
+
+.box-atras{
+    z-index: 1;
+}
+
+.box-frente{
+    z-index: 2;
+}
+
+@font-face{
+    font-family: Crique-Grotesk-Light;
+    src: url('CriqueGrotesk-Light.otf');
+}
+
+@font-face{
+    font-family: Crique-Grotesk-Medium;
+    src: url('CriqueGrotesk-Medium.otf');
+}
+
+.box-form{
+    background-color: #ebebeb;
+    padding: 2% 0 0 0;
+    border-radius: 1% 1% 1% 1%; 
+}
+
+.form-estacio{
+    font-family: Crique-Grotesk-Light;
+    border: 0 0 0 0;
+    box-shadow: 1px 1px 0  #dadada;
+}
+
+.botao{
+    height: 82%;
+    font-family: Crique-Grotesk-Medium;
+    padding: 2% 30% 2% 30%;
+    box-shadow: 1px 1px 0  #dadada;
+}
+
+.precos{
+    max-width: 72%;
+    /*max-height: 70%;*/
+    padding: 4% 0 8% 0;
+}
+
+#footer-logo{
+    max-width: 50%;
+}
+
+.rodape{
+    background-color: rgba(137, 223, 215, 0.7);
+}
+
+.rodape-linha-1{
+    padding: 9% 0 3% 0;
+}
+
+.rodape-linha-2{
+    background-color: #3aa8a1;
+    font-family: Novecento-wide-DemiBold;
+    color:#ffffff;
+    padding: 2% 0 2% 0;
+}
+
+.endereco h5{
+    font-family: Novecento-wide-DemiBold;
+}
+
+.endereco p{
+    font-family: Novecento-wide-Medium;
+}
+
+.endereco img{
+    max-height: 100%;
+}
+
+#facebook-icone{
+    padding: 10% 0 0 0;
+}
+
+.endereco-icone{
+    margin: 1% 0 1% 0;
+}
